@@ -179,9 +179,9 @@
 		NSString *strs[] = 
 		{
 			NULL,
-			@"com.minyxgames.marblestar.timed",
+			@"com.minyxgames.marblestarfree.timed",
 			NULL,
-			@"com.minyxgames.marblestar.puzzle",
+			@"com.minyxgames.marblestarfree.puzzle",
 			NULL
 		};
 		
@@ -271,9 +271,9 @@
 	NSString *strs[] = 
 	{
 		NULL,
-		@"com.minyxgames.marblestar.timed",
+		@"com.minyxgames.marblestarfree.timed",
 		NULL,
-		@"com.minyxgames.marblestar.puzzle",
+		@"com.minyxgames.marblestarfree.puzzle",
 		NULL
 	};
 	

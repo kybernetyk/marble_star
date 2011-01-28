@@ -9,8 +9,8 @@
 #pragma once
 
 //entity system checks and infos
-//#define __VERBOSE__
-#define APPIRATER_APP_ID 416081829
+#define __VERBOSE__
+#define APPIRATER_APP_ID 417373740 
 
 #ifdef __VERBOSE__
 	#define CV3Log printf
@@ -25,9 +25,11 @@
 
 #define USE_GAMECENTER
 #define USE_INAPPSTORE
-
 #define USE_NEWSFEED
 
+#define USE_ADS
+#define ADMOB_PUBLISHER_ID @"a14d42bc5b23d6a" 
+#define HOUSEAD_TARGET_URL @"http://itunes.apple.com/us/app/mega-fill-up/id416081829?mt=8&ls=1"
 
 #define USE_FACEBOOK
 #define FB_APP_ID @"175159862525272"

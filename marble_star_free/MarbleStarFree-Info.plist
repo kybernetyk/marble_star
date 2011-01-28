@@ -7,11 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>MS Free</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.minyxgames.marblestar</string>
+	<string>com.minyxgames.marblestarfree</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>Icon.png</string>
