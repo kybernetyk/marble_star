@@ -125,6 +125,7 @@
 		033A730112F2EEF9008F799F /* housead_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 033A72FE12F2EEF9008F799F /* housead_3.png */; };
 		033A731312F2F085008F799F /* MXAdController_landscape.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033A731112F2F085008F799F /* MXAdController_landscape.xib */; };
 		033A731412F2F085008F799F /* MXAdController_portrait.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033A731212F2F085008F799F /* MXAdController_portrait.xib */; };
+		033A755012F31A6F008F799F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 033A754F12F31A6F008F799F /* Reachability.m */; };
 		036FE5B012EAF70100BE6F90 /* BB_GameScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 036FE5AF12EAF70100BE6F90 /* BB_GameScene.mm */; };
 		036FE5D012EAF8D000BE6F90 /* BB_GameBoardSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 036FE5CF12EAF8D000BE6F90 /* BB_GameBoardSystem.mm */; };
 		036FE5D512EAF8E500BE6F90 /* BB_GameLogicSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = 036FE5D412EAF8E500BE6F90 /* BB_GameLogicSystem.mm */; };
@@ -433,6 +434,8 @@
 		033A72FE12F2EEF9008F799F /* housead_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housead_3.png; sourceTree = "<group>"; };
 		033A731112F2F085008F799F /* MXAdController_landscape.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXAdController_landscape.xib; sourceTree = "<group>"; };
 		033A731212F2F085008F799F /* MXAdController_portrait.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MXAdController_portrait.xib; sourceTree = "<group>"; };
+		033A754E12F31A6F008F799F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		033A754F12F31A6F008F799F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		036FE5AE12EAF70100BE6F90 /* BB_GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB_GameScene.h; sourceTree = "<group>"; };
 		036FE5AF12EAF70100BE6F90 /* BB_GameScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BB_GameScene.mm; sourceTree = "<group>"; };
 		036FE5CE12EAF8D000BE6F90 /* BB_GameBoardSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BB_GameBoardSystem.h; sourceTree = "<group>"; };
@@ -779,6 +782,8 @@
 		033A71B612F2EBCB008F799F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				033A754E12F31A6F008F799F /* Reachability.h */,
+				033A754F12F31A6F008F799F /* Reachability.m */,
 				033A71B712F2EBCB008F799F /* Appirater.h */,
 				033A71B812F2EBCB008F799F /* Appirater.m */,
 				033A71B912F2EBCB008F799F /* EAGLView.h */,
@@ -1690,6 +1695,7 @@
 				033A72B312F2EBCB008F799F /* ParticleSystem.mm in Sources */,
 				033A72B412F2EBCB008F799F /* RenderSystem.mm in Sources */,
 				033A72B512F2EBCB008F799F /* SoundSystem.mm in Sources */,
+				033A755012F31A6F008F799F /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
